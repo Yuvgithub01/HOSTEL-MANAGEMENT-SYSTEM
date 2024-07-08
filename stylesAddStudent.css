@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #7169db;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 46px; /* Increase font size */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #666666;
+    margin-bottom: 5px;
+    font-size: 16px; /* Increase font size */
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px; /* Increase padding for bigger input fields */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    transition: border-color 0.3s;
+    font-size: 24px; /* Increase font size */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    outline: none;
+    border-color: #79beec;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px; /* Increase padding for bigger button */
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 36px; /* Increase font size */
+}
+
+button[type="submit"]:hover {
+    background-color: #5dc1d8;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Adjust container width for smaller screens */
+        padding: 20px; /* Decrease padding for smaller screens */
+    }
+}

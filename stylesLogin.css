@@ -1,0 +1,104 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f5f9;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    width: 100%; /* Cover the whole screen */
+    height: 100vh; /* Make the container full height of the viewport */
+    background-color: #ffffff;
+    padding: 30px;
+    box-sizing: border-box; /* Include padding in width and height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   /* align-items: center;*/
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 56px; /* Increased font size */
+    padding-left: 2%;
+}
+
+p {
+    color: #34495e;
+    margin-bottom: 30px;
+    font-size: 24px; /* Increased font size */
+    padding-left: 2%;
+}
+
+.header {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    background-color: #e74c3c; /* Red color for logout button */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+.logout-button:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+}
+
+.quick-links {
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-button {
+    padding: 30px 60px; /* Increased padding for bigger buttons */
+    margin: 0 20px; /* Added margin for spacing between buttons */
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-size: 28px; /* Increased font size for bigger buttons */
+    text-align: center;
+    text-decoration: none; /* Removed underline for links */
+}
+
+.dashboard-button:nth-child(odd) {
+    background-color: #f39c12; /* Orange color */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Outward shadow */
+}
+
+.dashboard-button:nth-child(even) {
+    background-color: #3498db; /* Blue color */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Outward shadow */
+}
+
+.dashboard-button:hover {
+    transform: translateY(-5px); /* Add slight upward movement on hover */
+}
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.logout-button:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+}

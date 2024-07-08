@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Room Availability - Girls' Hostel Room Management System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Check Room Availability</h1>
+        <div id="availabilityResult">
+            <p>Total number of single rooms available: <span id="singleRoomCount">XX</span></p>
+            <p>Total number of double rooms available: <span id="doubleRoomCount">XX</span></p>
+        </div>
+        <div id="checkRoomAvailability">
+            <h2>Check Room Availability by Room Number:</h2>
+            <input type="text" id="roomNumber" placeholder="Enter Room Number">
+            <button onclick="checkRoomAvailability()">Check Availability</button>
+            <p id="roomAvailability"></p>
+        </div>
+    </div>
+
+    <script>src="roomAvailability.js"</script>
+</body>
+</html>

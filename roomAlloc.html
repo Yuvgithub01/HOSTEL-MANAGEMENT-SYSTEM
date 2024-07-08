@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Allocation - Hostel Room Management System</title>
+    <link rel="stylesheet" href="roomAlloc.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Room Allocation</h1>
+        <form action="#" method="post"> <!-- Update action attribute with appropriate backend handling -->
+            <div class="form-group">
+                <label for="enrollmentNumber">Enrollment Number:</label>
+                <input type="text" id="enrollmentNumber" name="enrollmentNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="roomNumber">Room Number:</label>
+                <input type="text" id="roomNumber" name="roomNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="roomType">Room Type:</label>
+                <select id="roomType" name="roomType" required>
+                    <option value="Single">Single</option>
+                    <option value="Double">Double</option>
+                </select>
+            </div>
+            <button type="submit">Allocate Room</button>
+        </form>
+    </div>
+    <script>src="roomAlloc.js"</script>
+</body>
+</html>
